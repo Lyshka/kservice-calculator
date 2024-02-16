@@ -1,0 +1,19 @@
+#carModel .st0:hover {
+  @apply tw-opacity-50 tw-fill-[#d7182f];
+  filter: url(#blurFilter-1);
+}
+#carModel .st0.active {
+  @apply !tw-opacity-50 !tw-fill-[#00ffff];
+  filter: url(#blurFilter-1);
+}
+
+
+@media (max-width: 1280px) {
+  #carModel svg {
+    @apply tw-h-full !tw-overflow-hidden tw-w-full;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
