@@ -11,7 +11,7 @@ import { TextUp } from "./components/TextUp";
 
 const App = () => {
   return (
-    <div className="tw-bg-black tw-flex xl:tw-min-h-screen tw-flex-col xl:tw-justify-center tw-items-start tw-relative tw-h-full tw-overflow-x-hidden xl:tw-py-0 tw-py-4 tw-scrollbar">
+    <div className="tw-bg-black tw-flex xl:tw-h-[1080px] tw-flex-col xl:tw-justify-center tw-items-start tw-relative tw-h-full xl:tw-py-0 tw-py-4 tw-scrollbar xl:tw-overscroll-auto tw-overflow-hidden">
       <BackgroundCar />
 
       <TextUp />
