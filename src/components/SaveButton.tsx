@@ -58,7 +58,7 @@ export const SaveButton = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            chat_id: 897695033,
+            chat_id: -662339732,
             text: `
 ${window.location.origin}
 <b>URL: </b>${window.location.href}
